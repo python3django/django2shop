@@ -166,9 +166,9 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = 'dgrsp9f37chfwncs' # Merchant ID
-BRAINTREE_PUBLIC_KEY = 'wv95zwg9jfzmqqxx' # Public Key
-BRAINTREE_PRIVATE_KEY = 'db11f64298cf76731a7f40c2d6c604f5' # Private key
+BRAINTREE_MERCHANT_ID = 'dgrsp9f37chfdncs' # Merchant ID
+BRAINTREE_PUBLIC_KEY = 'wv95zwg9jfzmsqxx' # Public Key
+BRAINTREE_PRIVATE_KEY = 'db11f64298cf76701a7f40c2d6c604f5' # Private key
 
 from braintree import Configuration, Environment
 
