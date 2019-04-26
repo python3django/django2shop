@@ -1,0 +1,16 @@
+{% extends "shop/base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <h1>Dashboard</h1>
+  <p>Welcome to your dashboard. You can <a href="{% url "edit" %}">edit your profile</a> or <a href="{% url "password_change" %}">change your password</a>.</p>
+  <div class="dashboard">
+    <h2>Заказы {{ request.user.first_name }}:</h2>
+    <table>    
+    {% for id_order, info in info_orders.items %}
+        <tr><td><b><a href="{% url "orders:user_order_detail" id_order %}">Заказ № {{ id_order }}</a></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; от {{ info.created }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; На сумму: <b>{{ info.total_cost }}</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Статус: <b>{% if info.paid %}Оплачен{% else %}Ждёт оплаты{% endif %}</b></td></tr>
+    {% endfor %}
+    </table>
+  </div>
+{% endblock %}

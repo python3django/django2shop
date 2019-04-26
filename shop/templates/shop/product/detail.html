@@ -1,0 +1,78 @@
+{% extends "shop/base.html" %}
+{% load i18n %}
+{% load static %}
+{% load thumbnail %}
+ 
+{% block title %}
+    {{ product.name }}
+{% endblock %}
+ 
+{% block content %}
+    <div class="product-detail">
+        <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static "img/no_image.png" %}{% endif %}">
+        <h1>{{ product.name }}</h1>
+        <h2><a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a></h2>
+        <p class="price">${{ product.price }}</p>
+        <form action="{% url "cart:cart_add" product.id %}" method="post">
+            {{ cart_product_form }}
+            {% csrf_token %}
+            <input type="submit" value="{% trans "Add to cart" %}">
+        </form>
+        {{ product.description|linebreaks }}
+
+        {% if recommended_products %}
+            <div class="recommendations">
+                <h3>{% trans "People who bought this also bought" %}</h3>
+                {% for p in recommended_products %}
+                    <div class="item">
+                        <a href="{{ p.get_absolute_url }}">
+                            {% thumbnail p.image "200x200"  crop="center" quality=100 as im %}
+                                <img src="{{ im.url }}">
+                            {% endthumbnail %}                            
+                        </a>
+                        <p><a href="{{ p.get_absolute_url }}">{{ p.name }}</a></p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    
+    <div> <br><br><br><br><br><br><br><br><br><br><br><br><br> <hr><hr><hr>
+      {% with comments.count as total_comments %}
+          <h3>
+            <!-- {{ total_comments }} comment{{ total_comments|pluralize }} -->
+            {{ total_comments }}{% if total_comments == 1 %} комментарий
+              {% elif total_comments > 1 and total_comments < 5 %} комментария
+              {% else %} комминтариев
+            {% endif %}
+          </h3>
+          {% endwith %}
+
+        {% for comment in comments %}
+          <div class="comment">
+            <p class="info">
+              Comment {{ forloop.counter }} by {{ comment.name }}
+              {{ comment.created }}
+            </p>
+            {{ comment.body|linebreaks }}
+          </div>
+        {% empty %}
+          <p>There are no comments yet.</p>
+        {% endfor %}
+        <hr>
+
+      {% if request.user.is_authenticated %}
+        {% if new_comment %}
+          <h2>Ваш комментарий был добавлен.</h2>
+        {% else %}
+          <h2>Добавить новый комментарий:</h2>
+          <form action="." method="post">
+            {{ comment_form.as_p }}
+            {% csrf_token %}
+            <p><input type="submit" value="Add comment"></p>
+          </form>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,1044 @@
+[
+{
+  "model": "shop.categorytranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea",
+    "slug": "tea",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9",
+    "slug": "te",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "en",
+    "name": "Coffee",
+    "slug": "coffee",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "es",
+    "name": "Caf\u00e9",
+    "slug": "cafe",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439",
+    "slug": "chaj",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0457",
+    "slug": "chayi",
+    "master": 2
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u043e\u0444\u0435",
+    "slug": "kofe",
+    "master": 1
+  }
+},
+{
+  "model": "shop.categorytranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u041a\u0430\u0432\u0430",
+    "slug": "kava",
+    "master": 1
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {}
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {}
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "Coffee arabica",
+    "slug": "coffee-arabica",
+    "description": "This is amazing caffee arabica.",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "es",
+    "name": "Caf\u00e9 ar\u00e1bica",
+    "slug": "cafe-arabica",
+    "description": "Esto es incre\u00edble caffee arabica.",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea powder",
+    "slug": "tea-powder",
+    "description": "This is amazing tea powder.",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 en polvo.",
+    "slug": "te-en-polvo",
+    "description": "Esto es incre\u00edble polvo de t\u00e9.",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "en",
+    "name": "Green tea",
+    "slug": "green-tea",
+    "description": "This is amazing green tea.",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 verde",
+    "slug": "te-verde",
+    "description": "Esto es incre\u00edble t\u00e9 verde.",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "en",
+    "name": "Black tea",
+    "slug": "black-tea",
+    "description": "This is amazing black tea.",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "es",
+    "name": "Te negro",
+    "slug": "te-negro",
+    "description": "Esto es incre\u00edble t\u00e9 negro.",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 9,
+  "fields": {
+    "language_code": "en",
+    "name": "Red tea",
+    "slug": "red-tea",
+    "description": "This is amazing red tea.",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 10,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 rojo",
+    "slug": "te-rojo",
+    "description": "Esto es incre\u00edble t\u00e9 rojo.",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 11,
+  "fields": {
+    "language_code": "en",
+    "name": "Coffee robusta",
+    "slug": "coffee-robusta",
+    "description": "This is very good coffee robusta.",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 12,
+  "fields": {
+    "language_code": "es",
+    "name": "Caf\u00e9 robusta",
+    "slug": "cafe-robusta",
+    "description": "Este es un caf\u00e9 muy bueno, robusta.",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 13,
+  "fields": {
+    "language_code": "en",
+    "name": "Coffee liberica",
+    "slug": "coffee-liberica",
+    "description": "This is good coffee liberica.",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 14,
+  "fields": {
+    "language_code": "es",
+    "name": "Caf\u00e9 liberico",
+    "slug": "cafe-liberico",
+    "description": "Este es un buen caf\u00e9 liberico.",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 15,
+  "fields": {
+    "language_code": "en",
+    "name": "Red tea carcade",
+    "slug": "red-tea-carcade",
+    "description": "This is good red-tea carcade.",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 16,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 buen carcade",
+    "slug": "te-buen-carcade",
+    "description": "Este es un buen t\u00e9-carcade.",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 17,
+  "fields": {
+    "language_code": "en",
+    "name": "Gemini-Tea-Collection",
+    "slug": "gemini-tea-collection",
+    "description": "This is amazing Gemini Tea Collection.",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 18,
+  "fields": {
+    "language_code": "es",
+    "name": "Colecci\u00f3n de t\u00e9 Gemini",
+    "slug": "coleccion-de-te-gemini",
+    "description": "Esta es la incre\u00edble colecci\u00f3n de t\u00e9 Gemini.",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 19,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea mokate",
+    "slug": "tea-mokate",
+    "description": "This is excellent tea mokate.",
+    "master": 10
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 20,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 mokate",
+    "slug": "te-mokate",
+    "description": "Este es un excelente t\u00e9 mokate.",
+    "master": 10
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 21,
+  "fields": {
+    "language_code": "en",
+    "name": "A blend of black and green tea",
+    "slug": "blend-black-and-green-tea",
+    "description": "A blend of black and green tea with strawberries and Lovare flower petals",
+    "master": 11
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 22,
+  "fields": {
+    "language_code": "es",
+    "name": "Una mezcla de t\u00e9 negro",
+    "slug": "una-mezcla-de-te-negro",
+    "description": "Una mezcla de t\u00e9 negro y verde con fresas y p\u00e9talos de flores Lovare.",
+    "master": 11
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 23,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea Curtis Vanilla Rooibos",
+    "slug": "tea-curtis-vanilla-rooibos",
+    "description": "This is good tea Curtis Vanilla Rooibos.",
+    "master": 12
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 24,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 de Curtis Vanilla Rooibos",
+    "slug": "te-de-curtis-vanilla-rooibos",
+    "description": "Este es un buen t\u00e9 de Curtis Vanilla Rooibos.",
+    "master": 12
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 25,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea black Akbar Pekoe",
+    "slug": "tea-black-akbar-pekoe",
+    "description": "This is good tea black Akbar Pekoe.",
+    "master": 13
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 26,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 negro Akbar Pekoe",
+    "slug": "te-negro-akbar-pekoe",
+    "description": "Este es un buen t\u00e9 negro Akbar Pekoe.",
+    "master": 13
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 27,
+  "fields": {
+    "language_code": "en",
+    "name": "Pu-erh tea",
+    "slug": "pu-erh-tea",
+    "description": "Pu-erh is a Chinese post-fermented tea originally from Yunnan province. This tea with a certain extract, the more it is, the Puer is considered better. Over time, the quality of Pu-erh only gets better, unlike other types of tea, which, as a rule, over time, lose their benefit and taste.",
+    "master": 14
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 28,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 pu-erh",
+    "slug": "te-pu-erh",
+    "description": "Pu-erh es un t\u00e9 chino post-fermentado originario de la provincia de Yunnan. Este t\u00e9 con cierto extracto, cuanto m\u00e1s es, el Puer se considera mejor. Con el tiempo, la calidad de Pu-erh solo mejora, a diferencia de otros tipos de t\u00e9, que, por regla general, pierden su valor y sabor con el tiempo.",
+    "master": 14
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 29,
+  "fields": {
+    "language_code": "en",
+    "name": "Tea \u041c\u0430\u0442\u0435",
+    "slug": "tea-mate",
+    "description": "This is very good tea mate.",
+    "master": 15
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 30,
+  "fields": {
+    "language_code": "es",
+    "name": "T\u00e9 \u041c\u0430\u0442\u0435",
+    "slug": "te-mate",
+    "description": "Esto es muy buen t\u00e9, Aguantadora Tradicional.",
+    "master": 15
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 31,
+  "fields": {
+    "language_code": "en",
+    "name": "White tea",
+    "slug": "white-tea",
+    "description": "This is amazing white tea.",
+    "master": 16
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 32,
+  "fields": {
+    "language_code": "es",
+    "name": "Te blanco",
+    "slug": "te-blanco",
+    "description": "Esto es incre\u00edble t\u00e9 blanco.",
+    "master": 16
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 33,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0447\u0430\u0439",
+    "slug": "chernyj-chaj",
+    "description": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0447\u0435\u0440\u043d\u044b\u0439 \u0447\u0430\u0439.",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 34,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u043e\u0440\u043d\u0438\u0439 \u0447\u0430\u0439",
+    "slug": "chornij-chaj",
+    "description": "\u0414\u0438\u0432\u043e\u0432\u0438\u0436\u043d\u0438\u0439 \u0447\u0430\u0439.",
+    "master": 1
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 35,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439 \u0447\u0430\u0439",
+    "slug": "zelenyj-chaj",
+    "description": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0437\u0435\u043b\u0451\u043d\u044b\u0439 \u0447\u0430\u0439.",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 36,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0417\u0435\u043b\u0435\u043d\u0438\u0439 \u0447\u0430\u0439",
+    "slug": "zelenij-chaj",
+    "description": "\u0414\u0438\u0432\u043e\u0432\u0438\u0436\u043d\u0438\u0439 \u0437\u0435\u043b\u0435\u043d\u0438\u0439 \u0447\u0430\u0439.",
+    "master": 2
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 37,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439 \u0438\u0437\u043c\u0435\u043b\u044c\u0447\u0435\u043d\u043d\u044b\u0439",
+    "slug": "chaj-izmelchennyj",
+    "description": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0438\u0437\u043c\u0435\u043b\u044c\u0447\u0435\u043d\u043d\u044b\u0439 \u0447\u0430\u0439.",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 38,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0439 \u043c\u0435\u043b\u0435\u043d\u0438\u0439",
+    "slug": "chaj-melenij",
+    "description": "\u0414\u0438\u0432\u043e\u0432\u0438\u0436\u043d\u0438\u0439 \u043c\u0435\u043b\u0435\u043d\u0438\u0439 \u0447\u0430\u0439.",
+    "master": 3
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 39,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u0447\u0430\u0439",
+    "slug": "krasnyj-chaj",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0447\u0430\u0439.",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 40,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u0447\u0430\u0439",
+    "slug": "chervonij-chaj",
+    "description": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0447\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u0447\u0430\u0439.",
+    "master": 4
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 41,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u043e\u0444\u0435 \u0430\u0440\u0430\u0431\u0438\u043a\u0430",
+    "slug": "kofe-arabika",
+    "description": "\u0412\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u043d\u044b\u0439 \u043a\u043e\u0444\u0435 \u0430\u0440\u0430\u0431\u0438\u043a\u0430.",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 42,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u041a\u0430\u0432\u0430 \u0430\u0440\u0430\u0431\u0456\u043a\u0430",
+    "slug": "kava-arabika",
+    "description": "\u0414\u0438\u0432\u043e\u0432\u0438\u0436\u043d\u0430 \u043a\u0430\u0432\u0430 \u0430\u0440\u0430\u0431\u0456\u043a\u0430.",
+    "master": 5
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 43,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u043e\u0444\u0435 \u0440\u043e\u0431\u0443\u0441\u0442\u0430",
+    "slug": "kofe-robusta",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u043a\u043e\u0444\u0435 \u0440\u043e\u0431\u0443\u0441\u0442\u0430.",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 44,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u041a\u0430\u0432\u0430 \u0440\u043e\u0431\u0443\u0441\u0442\u0430",
+    "slug": "kava-robusta",
+    "description": "\u0414\u0443\u0436\u0435 \u0434\u043e\u0431\u0440\u0430 \u043a\u0430\u0432\u0430 \u0440\u043e\u0431\u0443\u0441\u0442\u0430.",
+    "master": 6
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 45,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u043e\u0444\u0435 \u041b\u0438\u0431\u0435\u0440\u0438\u043a\u0430",
+    "slug": "kofe-liberika",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u043a\u043e\u0444\u0435 \u043b\u0438\u0431\u0435\u0440\u0438\u043a\u0430.",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 46,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u041a\u0430\u0432\u0430 \u043b\u0456\u0431\u0435\u0440\u0438\u043a\u0430",
+    "slug": "kava-liberika",
+    "description": "\u0414\u043e\u0431\u0440\u0430 \u043a\u0430\u0432\u0430 \u043b\u0456\u0431\u0435\u0440\u0438\u043a\u0430.",
+    "master": 7
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 47,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439 \u0447\u0430\u0439 \u043a\u0430\u0440\u043a\u0430\u0434\u0435",
+    "slug": "krasnyj-chaj-karkade",
+    "description": "\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0447\u0430\u0439 \u043a\u0430\u0440\u043a\u0430\u0434\u0435.",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 48,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u0447\u0430\u0439 \u043a\u0430\u0440\u043a\u0430\u0434\u0435",
+    "slug": "chervonij-chaj-karkade",
+    "description": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0447\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u0447\u0430\u0439 \u043a\u0430\u0440\u043a\u0430\u0434\u0435.",
+    "master": 8
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 49,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439 Gemini Collection",
+    "slug": "chaj-gemini",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0447\u0430\u0439 Gemini.",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 50,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0457 Gemini Collection",
+    "slug": "chayi-gemini-collection",
+    "description": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0447\u0430\u0439 Gemini.",
+    "master": 9
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 51,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439 \u043c\u043e\u043a\u0430\u0442\u044d",
+    "slug": "makate",
+    "description": "\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0439 \u0447\u0430\u0439 \u043c\u0430\u043a\u0430\u0442\u044d.",
+    "master": 10
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 52,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0457 \u043c\u043e\u043a\u0430\u0442\u0435",
+    "slug": "chayi-mokate",
+    "description": "\u0427\u0443\u0434\u043e\u0432\u0438\u0439 \u0447\u0430\u0439 \u043c\u043e\u043a\u0430\u0442\u0435.",
+    "master": 10
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 53,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0421\u043c\u0435\u0441\u044c \u0447\u0435\u0440\u043d\u043e\u0433\u043e \u0438 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u044f",
+    "slug": "smes-chernogo-i-zelenogo-chaya",
+    "description": "\u0421\u043c\u0435\u0441\u044c \u0447\u0435\u0440\u043d\u043e\u0433\u043e \u0438 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u044f \u0441 \u043a\u043b\u0443\u0431\u043d\u0438\u043a\u043e\u0439 \u0438 \u0446\u0432\u0435\u0442\u043e\u0447\u043d\u044b\u043c\u0438 \u043b\u0435\u043f\u0435\u0441\u0442\u043a\u0430\u043c\u0438 Lovare.",
+    "master": 11
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 54,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0421\u0443\u043c\u0456\u0448 \u0447\u043e\u0440\u043d\u043e\u0433\u043e \u0456 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u044e",
+    "slug": "sumish-chornogo-i-zelenogo-chayu",
+    "description": "\u0421\u0443\u043c\u0456\u0448 \u0447\u043e\u0440\u043d\u043e\u0433\u043e \u0456 \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u044e \u0437 \u043a\u043b\u0443\u0431\u043d\u0438\u043a\u043e\u044e \u0456 \u0446\u0432\u0456\u0442\u043a\u043e\u0432\u0438\u043c\u0438 \u043b\u0435\u043f\u0456\u0441\u0442\u043a\u0430\u043c\u0438 Lovare.",
+    "master": 11
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 55,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0439 Curtis Vanilla Rooibos",
+    "slug": "chaj-curtis-vanilla-rooibos",
+    "description": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0447\u0430\u0439 Curtis Vanilla Rooibos.",
+    "master": 12
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 56,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439 Curtis Vanilla Rooibos",
+    "slug": "chaij-curtis-vanilla-rooibos",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0447\u0430\u0439 Curtis Vanilla Rooibos.",
+    "master": 12
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 57,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0447\u0430\u0439 Akbar Pekoe",
+    "slug": "chernyj-chaj-akbar-pekoe",
+    "description": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0447\u0435\u0440\u043d\u044b\u0439 \u0447\u0430\u0439 Akbar Pekoe.",
+    "master": 13
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 58,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u043e\u0440\u043d\u0438\u0439 \u0447\u0430\u0439 Akbar Pekoe",
+    "slug": "chornij-chaj-akbar-pekoe",
+    "description": "\u0414\u043e\u0431\u0440\u0438\u0439 \u0447\u043e\u0440\u043d\u0438\u0439 \u0447\u0430\u0439 Akbar Pekoe.",
+    "master": 13
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 59,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0427\u0430\u0439 \u043f\u0443\u044d\u0440",
+    "slug": "puer-chaj",
+    "description": "\u041f\u0443\u044d\u0440 - \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 \u0444\u0435\u0440\u043c\u0435\u043d\u0442\u043d\u044b\u0439 \u0447\u0430\u0439 \u0438\u0437 \u043f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u0438 \u042e\u043d\u044c\u043d\u0430\u043d\u044c. \u0421\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u041f\u0443\u044d\u0440 \u0442\u043e\u043b\u044c\u043a\u043e \u0443\u043b\u0443\u0447\u0448\u0430\u0435\u0442\u0441\u044f, \u0432 \u043e\u0442\u043b\u0438\u0447\u0438\u0435 \u043e\u0442 \u0434\u0440\u0443\u0433\u0438\u0445 \u0432\u0438\u0434\u043e\u0432 \u0447\u0430\u044f, \u043a\u043e\u0442\u043e\u0440\u044b\u0435, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e, \u0441\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u0442\u0435\u0440\u044f\u044e\u0442 \u0441\u0432\u043e\u044e \u043f\u043e\u043b\u044c\u0437\u0443 \u0438 \u0432\u043a\u0443\u0441.",
+    "master": 14
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 60,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0439 \u041f\u0443\u0435\u0440",
+    "slug": "chaj-puer",
+    "description": "\u041f\u0443\u044d\u0440 - \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0456\u0439 \u0444\u0435\u0440\u043c\u0435\u043d\u0442\u043d\u0438\u0439 \u0447\u0430\u0439 \u0437 \u043f\u0440\u043e\u0432\u0456\u043d\u0446\u0456\u0456 \u042e\u043d\u044c\u043d\u0430\u043d\u044c. \u0417 \u0447\u0430\u0441\u043e\u043c \u0432\u0456\u043d \u0441\u0442\u0430\u0454 \u0442\u0456\u043b\u044c\u043a\u0438 \u043b\u0456\u043f\u0448\u0435, \u043d\u0430 \u0432\u0456\u0434\u043c\u0456\u043d\u0443 \u0432\u0456\u0434 \u0456\u043d\u0448\u0456\u0445 \u0447\u0430\u0457\u0432.",
+    "master": 14
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 61,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0427\u0430\u0439 \u043c\u0430\u0442\u0435",
+    "slug": "chaj-mate",
+    "description": "\u0414\u0443\u0436\u0435 \u0434\u043e\u0431\u0440\u0438\u0439 \u0447\u0430\u0439 \u043c\u0430\u0442\u0435.",
+    "master": 15
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 62,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u041c\u0430\u0442\u0435 \u0447\u0430\u0439",
+    "slug": "mate-chaj",
+    "description": "\u041e\u0447\u0435\u043d\u044c \u0445\u043e\u0440\u043e\u0448\u0438\u0439 \u0447\u0430\u0439 \u043c\u0430\u0442\u044d.",
+    "master": 15
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 63,
+  "fields": {
+    "language_code": "ru",
+    "name": "\u0411\u0435\u043b\u044b\u0439 \u0447\u0430\u0439",
+    "slug": "belyj-chaj",
+    "description": "\u0423\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u0435\u043b\u044b\u0439 \u0447\u0430\u0439.",
+    "master": 16
+  }
+},
+{
+  "model": "shop.producttranslation",
+  "pk": 64,
+  "fields": {
+    "language_code": "uk",
+    "name": "\u0411\u0456\u043b\u0438\u0439 \u0447\u0430\u0439",
+    "slug": "bilij-chaj",
+    "description": "\u0414\u0438\u0432\u043e\u0432\u0438\u0436\u043d\u0438\u0439 \u0431\u0456\u043b\u0438\u0439 \u0447\u0430\u0439.",
+    "master": 16
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/01/Black-tea.jpg",
+    "price": "20.00",
+    "available": true,
+    "created": "2018-11-01T07:02:18.957Z",
+    "updated": "2018-11-28T09:42:44.139Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/01/green-tea.jpg",
+    "price": "15.50",
+    "available": true,
+    "created": "2018-11-01T07:27:14.608Z",
+    "updated": "2018-11-28T09:44:30.966Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/irani-tea-powder.jpg",
+    "price": "12.00",
+    "available": true,
+    "created": "2018-11-01T07:28:03.963Z",
+    "updated": "2018-11-28T09:47:21.484Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/red-tea.jpg",
+    "price": "25.00",
+    "available": true,
+    "created": "2018-11-01T07:28:44.074Z",
+    "updated": "2018-11-28T09:49:17.837Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/11/01/arabica-parchment.jpg",
+    "price": "28.00",
+    "available": true,
+    "created": "2018-11-01T07:29:33.967Z",
+    "updated": "2018-11-28T09:51:03.381Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/11/26/robusta.png",
+    "price": "24.00",
+    "available": true,
+    "created": "2018-11-26T13:53:48.131Z",
+    "updated": "2018-11-28T09:52:19.032Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 1,
+    "image": "products/2018/11/27/liberica.jpg",
+    "price": "23.00",
+    "available": true,
+    "created": "2018-11-27T07:41:19.312Z",
+    "updated": "2018-11-28T09:53:45.247Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/red-tea-karkade.jpg",
+    "price": "10.00",
+    "available": true,
+    "created": "2018-11-27T07:47:54.834Z",
+    "updated": "2018-11-28T09:55:46.317Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/Gemini-Tea-Collection.jpg",
+    "price": "12.00",
+    "available": true,
+    "created": "2018-11-27T07:51:46.632Z",
+    "updated": "2018-11-28T09:59:50.119Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 10,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/mokate.jpg",
+    "price": "7.00",
+    "available": true,
+    "created": "2018-11-27T08:04:11.118Z",
+    "updated": "2018-11-28T10:03:14.619Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 11,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/lovare.jpg",
+    "price": "17.00",
+    "available": true,
+    "created": "2018-11-27T09:37:28.129Z",
+    "updated": "2018-11-28T10:06:47.063Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 12,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/curtis.jpg",
+    "price": "23.00",
+    "available": true,
+    "created": "2018-11-27T09:40:37.191Z",
+    "updated": "2018-11-28T10:09:16.867Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 13,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/copy_akbar.jpg",
+    "price": "19.00",
+    "available": true,
+    "created": "2018-11-27T09:43:29.356Z",
+    "updated": "2018-11-28T10:10:49.490Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 14,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/pu-ehr3.jpg",
+    "price": "26.00",
+    "available": true,
+    "created": "2018-11-27T12:50:36.658Z",
+    "updated": "2018-11-28T10:15:36.584Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 15,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/tea-mate.jpg",
+    "price": "9.00",
+    "available": true,
+    "created": "2018-11-27T17:08:17.289Z",
+    "updated": "2018-11-28T10:16:56.803Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 16,
+  "fields": {
+    "category": 2,
+    "image": "products/2018/11/27/white-tea.jpg",
+    "price": "19.00",
+    "available": true,
+    "created": "2018-11-27T17:45:07.577Z",
+    "updated": "2018-11-28T10:18:07.472Z"
+  }
+},
+{
+  "model": "shop.comment",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "body": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0430\u0440\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0447\u0430\u0439!",
+    "created": "2018-11-27T17:25:16.781Z",
+    "updated": "2018-11-27T17:25:16.782Z",
+    "active": true,
+    "user": 2,
+    "id_user": 2,
+    "name": "Assa"
+  }
+},
+{
+  "model": "shop.comment",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "body": "\u0412\u0441\u0435\u043c \u0440\u0435\u043a\u043e\u043c\u043c\u0435\u043d\u0434\u0443\u044e.",
+    "created": "2018-11-27T17:25:37.696Z",
+    "updated": "2018-11-27T17:25:37.696Z",
+    "active": true,
+    "user": 2,
+    "id_user": 2,
+    "name": "Assa"
+  }
+},
+{
+  "model": "shop.comment",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "body": "\u041f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u043d\u0430 \u0432\u043a\u0443\u0441.",
+    "created": "2018-11-27T17:38:07.925Z",
+    "updated": "2018-11-27T17:38:07.925Z",
+    "active": true,
+    "user": 2,
+    "id_user": 2,
+    "name": "Assa"
+  }
+},
+{
+  "model": "shop.comment",
+  "pk": 4,
+  "fields": {
+    "product": 1,
+    "body": "\u0427\u0430\u0439 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0440\u043e\u0448\u0438\u0439.",
+    "created": "2018-11-27T19:16:23.146Z",
+    "updated": "2018-11-27T19:16:23.147Z",
+    "active": true,
+    "user": 3,
+    "id_user": 3,
+    "name": "Odin"
+  }
+}
+]
